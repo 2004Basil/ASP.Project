@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - النظام المتكامل</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/systemCss.css">
+
+</head>
+<body>
+    <!-- الهيدر الرئيسي -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="Home.html" class="logo">
+                    <img src="https://via.placeholder.com/40" alt="WithYou Logo">
+                    <span>WithYou</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="Home.html"><i class="fas fa-home"></i> الرئيسية</a>
+                    <a href="#sessions"><i class="fas fa-calendar-alt"></i> الجلسات</a>
+                    <a href="#certificates"><i class="fas fa-certificate"></i> الشهادات</a>
+                    <a href="#documents"><i class="fas fa-file-medical"></i> الوثائق</a>
+                    <a href="#analytics"><i class="fas fa-chart-bar"></i> الإحصائيات</a>
+                    <a href="#ratings"><i class="fas fa-star"></i> التقييمات</a>
+                    <a href="Login.html"><i class="fas fa-sign-out-alt"></i> تسجيل خروج</a>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 1. صفحة إدارة الجلسات العلاجية -->
+        <section id="sessions" class="sessions-container">
+            <h2><i class="fas fa-calendar-alt"></i> إدارة الجلسات العلاجية</h2>
+            <div class="session-filters">
+                <select class="form-control">
+                    <option>جميع الحالات</option>
+                    <option>معلقة</option>
+                    <option>نشطة</option>
+                    <option>منتهية</option>
+                </select>
+                <input type="date" class="form-control">
+                <button class="btn btn-primary">بحث</button>
+            </div>
+            
+            <div class="session-card">
+                <h3>جلسة علاج معرفي سلوكي <span class="session-status status-active">نشطة</span></h3>
+                <p><i class="far fa-clock"></i> 20 أبريل 2025 - 10:00 صباحاً</p>
+                <p><i class="fas fa-user-md"></i> د. أحمد محمد</p>
+                <p><i class="fas fa-info-circle"></i> جلسة أسبوعية لمتابعة حالة الاكتئاب</p>
+                <div class="session-actions">
+                    <button class="btn btn-outline">تفاصيل</button>
+                    <button class="btn btn-primary">انضم الآن</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. صفحة نظام الشهادات -->
+        <section id="certificates" class="sessions-container" style="margin-top: 30px;">
+            <h2><i class="fas fa-certificate"></i> نظام الشهادات</h2>
+            
+            <div class="certificate-card">
+                <h3>شهادة إتمام البرنامج العلاجي</h3>
+                <p><i class="fas fa-user"></i> المريض: محمد عبد الرحمن</p>
+                <p><i class="fas fa-calendar"></i> تاريخ الإصدار: 15 أبريل 2025</p>
+                <p><i class="fas fa-barcode"></i> رقم الشهادة: WY-2025-0452</p>
+                <div class="certificate-actions">
+                    <button class="btn btn-primary">طباعة الشهادة</button>
+                    <button class="btn btn-outline">تحميل PDF</button>
+                    <button class="btn btn-outline">مشاركة</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. صفحة إدارة الوثائق الطبية -->
+        <section id="documents" class="sessions-container" style="margin-top: 30px;">
+            <h2><i class="fas fa-file-medical"></i> إدارة الوثائق الطبية</h2>
+            
+            <div class="document-upload-area">
+                <i class="fas fa-cloud-upload-alt" style="font-size: 48px; color: var(--primary-light);"></i>
+                <p>اسحب وأسقط الملفات هنا أو انقر للاختيار</p>
+                <small>الحد الأقصى لحجم الملف 10MB</small>
+            </div>
+            
+            <div class="document-list">
+                <div class="document-item">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>التقرير النفسي الشهري.pdf</span>
+                    <span class="document-date">12 أبريل 2025</span>
+                    <button class="btn btn-sm">تحميل</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. صفحة لوحة الإحصائيات -->
+        <section id="analytics" class="sessions-container" style="margin-top: 30px;">
+            <h2><i class="fas fa-chart-bar"></i> لوحة الإحصائيات</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>الجلسات النشطة</h3>
+                    <p style="font-size: 32px; font-weight: bold; color: var(--primary-color);">24</p>
+                </div>
+                <div class="stat-card">
+                    <h3>المستفيدون</h3>
+                    <p style="font-size: 32px; font-weight: bold; color: var(--primary-color);">143</p>
+                </div>
+                <div class="stat-card">
+                    <h3>معدل الرضا</h3>
+                    <p style="font-size: 32px; font-weight: bold; color: var(--primary-color);">4.8/5</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. صفحة نظام التقييمات -->
+        <section id="ratings" class="sessions-container" style="margin-top: 30px;">
+            <h2><i class="fas fa-star"></i> نظام التقييمات</h2>
+            
+            <div class="rating-card">
+                <div class="rating-header">
+                    <img src="https://via.placeholder.com/50" alt="صورة الطبيب" style="border-radius: 50%;">
+                    <div>
+                        <h4>د. سارة عبدالله</h4>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(24 تقييم)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-form">
+                    <h4>أضف تقييمك</h4>
+                    <div class="rating-stars">
+                        <i class="far fa-star" data-rating="1"></i>
+                        <i class="far fa-star" data-rating="2"></i>
+                        <i class="far fa-star" data-rating="3"></i>
+                        <i class="far fa-star" data-rating="4"></i>
+                        <i class="far fa-star" data-rating="5"></i>
+                    </div>
+                    <textarea placeholder="اكتب تعليقك هنا..." style="width: 100%; padding: 10px; margin-top: 10px;"></textarea>
+                    <button class="btn btn-primary">إرسال التقييم</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="Js/system.js"></script>
+
+</body>
+</html>

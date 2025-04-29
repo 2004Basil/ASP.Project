@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/BookingCss.css">
+
+</head>
+
+<body>
+
+    <header class="main-header" id="header">
+        <div class="container-header">
+            <a href="Home.html" class="logo">
+                <img src="https://via.placeholder.com/42" alt="شعار WithYou">
+                <span>WithYou</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="Home.html">الرئيسية</a>
+                <a href="Specialest.html">الأخصائيين</a>
+                <!-- <a href="#booking">الحجز</a> -->
+                <a href="Articels.html">المقالات</a>
+            </div>
+
+            <div class="icons-header">
+                <i class="fas fa-search" id="search-icon"></i>
+                <i class="fas fa-globe" id="language-icon"></i>
+
+                <!-- Search Box -->
+                <div class="search-box" id="search-box">
+                    <input type="text" placeholder="ابحث هنا...">
+                </div>
+
+                <!-- Language Menu -->
+                <div class="language-menu" id="language-menu">
+                    <ul>
+                        <li>
+                            <a href="#" data-lang="ar">
+                                <i class="fas fa-language"></i>
+                                العربية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="en">
+                                <i class="fas fa-language"></i>
+                                English
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <div class="auth-buttons">
+                    <a href="login.html" class="login">تسجيل الدخول</a>
+                    <a href="register.html" class="register">إنشاء حساب</a>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- ... (ابقى على الهيدر كما هو) ... -->
+
+    <section class="booking-section" id="booking">
+        <div class="booking-container">
+            <div class="booking-header">
+                <h2>احجز جلستك الآن</h2>
+                <p>املأ النموذج التالي وسنتصل بك لتأكيد الحجز خلال 24 ساعة</p>
+            </div>
+
+            <div class="booking-card">
+                <div class="booking-steps">
+                    <div class="booking-step active">معلومات الشخصية</div>
+                    <div class="booking-step">تفاصيل الجلسة</div>
+                    <div class="booking-step">تأكيد الحجز</div>
+                </div>
+
+                <div class="booking-form-container">
+                    <form id="bookingForm" onsubmit="event.preventDefault(); submitBookingForm();">
+                        <div class="form-grid">
+
+                            <div class="form-group">
+                                <label for="birthDate" class="form-label">تاريخ الميلاد</label>
+                                <input type="date" id="birthDate" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="gender" class="form-label">الجنس</label>
+                                <div class="select-wrapper">
+                                    <select id="gender" class="form-control form-select" required>
+                                        <option value="">اختر الجنس</option>
+                                        <option value="male">ذكر</option>
+                                        <option value="female">أنثى</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="address" class="form-label">العنوان (اختياري)</label>
+                                <input type="text" id="address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label class="form-label">نوع الجلسة المطلوبة</label>
+                            <div class="session-types">
+                                <div class="form-check">
+                                    <input type="radio" id="individual" name="sessionType" value="individual" checked
+                                        class="form-check-input">
+                                    <label for="individual" class="form-check-label">جلسة فردية</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="group" name="sessionType" value="group"
+                                        class="form-check-input">
+                                    <label for="group" class="form-check-label">جلسة جماعية</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="child" name="sessionType" value="child"
+                                        class="form-check-input">
+                                    <label for="child" class="form-check-label">جلسة للأطفال</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="notes" class="form-label">ملاحظات إضافية (اختياري)</label>
+                            <textarea id="notes" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="booking-actions">
+                            <button type="button" class="btn btn-secondary">رجوع</button>
+                            <button type="submit" class="btn btn-primary">تأكيد الحجز</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">من نحن</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#doctors">الأخصائيون</a>
+                <!-- <a href="#booking">الحجز</a> -->
+                <a href="privacy.html">سياسة الخصوصية</a>
+                <a href="terms.html">الشروط والأحكام</a>
+            </div>
+    
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+    
+            <p class="copyright">© 2025 WithYou. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+<script src="Js/Booking.js"></script>
+
+</body>
+
+</html>

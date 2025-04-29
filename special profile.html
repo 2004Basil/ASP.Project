@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - تعديل بروفايل الأخصائي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/SpecialProfileCss.css">
+
+</head>
+<body>
+    <!-- الهيدر -->
+    <header class="profile-header">
+        <div class="container">
+            <nav class="profile-nav">
+                <a href="#" class="logo">
+                    <img src="https://via.placeholder.com/40" alt="WithYou Logo">
+                    <span>WithYou</span>
+                </a>
+                <div class="profile-nav-links">
+                    <a href="Home.html"><i class="fas fa-home"></i> الرئيسية</a>
+                    <a href="dashboard specialst.html"><i class="fas fa-calendar-alt"></i> لوحة التحكم</a>
+                    <a href="Login.html"><i class="fas fa-sign-out-alt"></i> تسجيل خروج</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <div class="profile-container">
+            <div class="profile-header-section">
+                <h1><i class="fas fa-user-md"></i> تعديل بروفايل الأخصائي</h1>
+                <a href="#profile-container" class="btn btn-outline"><i class="fas fa-eye"></i> معاينة البروفايل</a>
+            </div>
+            
+            <div class="specialist-form-container">
+                <!-- المعلومات الأساسية -->
+                <h3 class="form-section-title"><i class="fas fa-info-circle"></i> المعلومات الأساسية</h3>
+                
+                <div class="image-upload-container">
+                    <img src="https://via.placeholder.com/120" alt="صورة الأخصائي" class="profile-image-preview">
+                    <div class="upload-actions">
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-camera"></i> تغيير الصورة</button>
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-trash"></i> حذف الصورة</button>
+                    </div>
+                </div>
+                
+                <form class="specialist-form">
+                    <div class="form-group">
+                        <label for="fullName">الاسم الكامل</label>
+                        <input type="text" id="fullName" value="د. سارة عبدالله محمد">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" value="sara@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" value="+966501234567">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="gender">الجنس</label>
+                        <select id="gender">
+                            <option value="female" selected>أنثى</option>
+                            <option value="male">ذكر</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="birthdate">تاريخ الميلاد</label>
+                        <input type="date" id="birthdate" value="1985-05-20">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">البلد</label>
+                        <select id="country">
+                            <option value="sa" selected>المملكة العربية السعودية</option>
+                            <option value="eg">مصر</option>
+                            <option value="ae">الإمارات</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="bio">نبذة عن الأخصائي</label>
+                        <textarea id="bio" rows="4">أخصائية نفسية معتمدة مع أكثر من 10 سنوات من الخبرة في علاج الاكتئاب والقلق واضطرابات ما بعد الصدمة. حاصلة على الدكتوراه في علم النفس السريري من جامعة الملك سعود.</textarea>
+                    </div>
+                    
+                    <!-- المعلومات المهنية -->
+                    <h3 class="form-section-title"><i class="fas fa-briefcase"></i> المعلومات المهنية</h3>
+                    
+                    <div class="form-group">
+                        <label for="specialization">التخصص الرئيسي</label>
+                        <select id="specialization">
+                            <option value="clinical" selected>علم النفس السريري</option>
+                            <option value="child">علم نفس الطفل</option>
+                            <option value="family">العلاج الأسري</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="yearsExp">سنوات الخبرة</label>
+                        <input type="number" id="yearsExp" value="10">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="license">رقم الرخصة</label>
+                        <input type="text" id="license" value="PSY-12345">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="university">الجامعة</label>
+                        <input type="text" id="university" value="جامعة الملك سعود">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="degree">الدرجة العلمية</label>
+                        <select id="degree">
+                            <option value="phd" selected>دكتوراه</option>
+                            <option value="master">ماجستير</option>
+                            <option value="bachelor">بكالوريوس</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hourlyRate">السعر للساعة (ر.س)</label>
+                        <input type="number" id="hourlyRate" value="300">
+                    </div>
+                    
+                    <!-- التخصصات -->
+                    <div class="form-group full-width">
+                        <label>مجالات التخصص</label>
+                        <div class="specialties-container">
+                            <span class="specialty-tag">الاكتئاب <i class="fas fa-times"></i></span>
+                            <span class="specialty-tag">القلق <i class="fas fa-times"></i></span>
+                            <span class="specialty-tag">اضطرابات النوم <i class="fas fa-times"></i></span>
+                            <span class="specialty-tag">اضطرابات ما بعد الصدمة <i class="fas fa-times"></i></span>
+                        </div>
+                        <div class="add-specialty">
+                            <input type="text" placeholder="أضف تخصص جديد">
+                            <button type="button" class="btn btn-primary">إضافة</button>
+                        </div>
+                    </div>
+                    
+                    <!-- الساعات المتاحة -->
+                    <h3 class="form-section-title"><i class="fas fa-clock"></i> الساعات المتاحة</h3>
+                    
+                    <div class="form-group full-width">
+                        <table class="availability-table">
+                            <thead>
+                                <tr>
+                                    <th>اليوم</th>
+                                    <th>9-12 ص</th>
+                                    <th>12-3 م</th>
+                                    <th>3-6 م</th>
+                                    <th>6-9 م</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>الأحد</td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>الاثنين</td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>الثلاثاء</td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>الأربعاء</td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                </tr>
+                                <tr>
+                                    <td>الخميس</td>
+                                    <td><input type="checkbox" class="availability-checkbox" checked></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                    <td><input type="checkbox" class="availability-checkbox"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- طرق العلاج -->
+                    <h3 class="form-section-title"><i class="fas fa-heartbeat"></i> طرق العلاج</h3>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" checked> جلسات أونلاين
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox"> جلسات في العيادة
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" checked> العلاج المعرفي السلوكي (CBT)
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox"> العلاج التحليلي
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" checked> العلاج الجدلي السلوكي (DBT)
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox"> العلاج الأسري
+                        </label>
+                    </div>
+                    
+                    <!-- أزرار الحفظ -->
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> حفظ التغييرات</button>
+                        <button type="button" class="btn btn-outline"><i class="fas fa-times"></i> إلغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Js/SpecialProfile.js"></script>
+
+</body>
+</html>

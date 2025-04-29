@@ -1,0 +1,157 @@
+لوحة تحكم اخصاىي
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - لوحة تحكم الأخصائي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/dashboardSpecialstCss.css">
+
+</head>
+<body>
+    <!-- هيدر لوحة التحكم -->
+    <header class="specialist-header">
+        <nav class="specialist-nav">
+            <a href="dashboard specialst.html" class="specialist-logo">
+                <img src="https://via.placeholder.com/42" alt="شعار WithYou">
+                <span>WithYou | لوحة الأخصائي</span>
+            </a>
+            
+            <div class="specialist-nav-links">
+                <a href="Reviews and problem.html"><i class="fas fa-bell"></i> الإشعارات</a>
+                <a href="special profile.html"><i class="fas fa-user-cog"></i> الملف الشخصي</a>
+                <a href="Login.html"><i class="fas fa-sign-out-alt"></i> تسجيل الخروج</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- جسم لوحة التحكم -->
+    <div class="specialist-container">
+        <!-- القائمة الجانبية -->
+        <aside class="specialist-sidebar">
+            <div class="specialist-profile-summary">
+                <img src="https://via.placeholder.com/80" alt="صورة الأخصائي" class="specialist-avatar">
+                <h3>د. أحمد محمد</h3>
+                <p>أخصائي علاج نفسي</p>
+                <div class="specialist-rating">
+                    <i class="fas fa-star"></i>
+                    <span>4.9 (127 تقييم)</span>
+                </div>
+            </div>
+            
+            <h3>القائمة</h3>
+            <ul class="specialist-menu">
+                <li><a href="dashboard specialst.html" class="active"><i class="fas fa-tachometer-alt"></i> لوحة التحكم</a></li>
+                <li><a href="userdashboard.html"><i class="fas fa-users"></i> المستخدمون</a></li>
+                <li><a href="Articels.html"><i class="fas fa-file-alt"></i> المقالات</a></li>
+                <li><a href="Reviews and problem.html"><i class="fas fa-comments"></i> المراجعات</a></li>
+                <li><a href="#stats-cards"><i class="fas fa-chart-line"></i> الإحصائيات</a></li>
+            </ul>
+        </aside>
+
+        <!-- المحتوى الرئيسي -->
+        <main class="specialist-content">
+            <div class="specialist-content-header">
+                <h2>نظرة عامة</h2>
+                <div>
+                    <button class="btn btn-outline"><i class="fas fa-download"></i> تصدير تقرير</button>
+                </div>
+            </div>
+
+            <!-- بطاقات الإحصائيات -->
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>24</h3>
+                    <p>موعد هذا الأسبوع</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3>4.9</h3>
+                    <p>متوسط التقييم</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-wallet"></i>
+                    <h3>8,450 ر.س</h3>
+                    <p>إيرادات هذا الشهر</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>42</h3>
+                    <p>مرضى نشطين</p>
+                </div>
+            </div>
+
+            <!-- التقويم -->
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <h3>أبريل 2025</h3>
+                    <div>
+                        <button class="btn btn-outline btn-sm"><i class="fas fa-chevron-right"></i></button>
+                        <button class="btn btn-outline btn-sm"><i class="fas fa-chevron-left"></i></button>
+                    </div>
+                </div>
+                
+                <div class="calendar-grid">
+                    <div class="calendar-day-header">الأحد</div>
+                    <div class="calendar-day-header">الإثنين</div>
+                    <div class="calendar-day-header">الثلاثاء</div>
+                    <div class="calendar-day-header">الأربعاء</div>
+                    <div class="calendar-day-header">الخميس</div>
+                    <div class="calendar-day-header">الجمعة</div>
+                    <div class="calendar-day-header">السبت</div>
+                    
+                    <!-- أيام التقويم -->
+                    <div class="calendar-day">
+                        <div class="calendar-day-number">1</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="calendar-day-number">2</div>
+                    </div>
+                    <div class="calendar-day has-appointment">
+                        <div class="calendar-day-number">3</div>
+                        <span class="appointment-badge">3 مواعيد</span>
+                    </div>
+                    <!-- باقي الأيام -->
+                </div>
+            </div>
+
+            <!-- المواعيد القادمة -->
+            <div class="appointments-list">
+                <h3>المواعيد القادمة اليوم</h3>
+                
+                <div class="appointment-card">
+                    <div class="appointment-info">
+                        <h4>جلسة علاج معرفي</h4>
+                        <p><i class="far fa-clock"></i> 10:00 ص - 11:00 ص</p>
+                        <p><i class="fas fa-user"></i> محمد أحمد</p>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn btn-primary">بدء الجلسة</button>
+                        <button class="btn btn-outline">تفاصيل</button>
+                    </div>
+                </div>
+                
+                <div class="appointment-card">
+                    <div class="appointment-info">
+                        <h4>استشارة أسرية</h4>
+                        <p><i class="far fa-clock"></i> 12:00 م - 1:00 م</p>
+                        <p><i class="fas fa-user"></i> سارة عبدالله</p>
+                    </div>
+                    <div class="appointment-actions">
+                        <button class="btn btn-outline">تأجيل</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specialist-footer">
+                &copy; 2025 WithYou. جميع الحقوق محفوظة.
+            </div>
+        </main>
+    </div>
+    <script src="Js/dashboardSpecialst.js"></script>
+
+</body>
+</html>

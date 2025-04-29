@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - بوابة الدخول</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/LoginCss.css">
+
+</head>
+
+<body>
+    <div class="auth-container">
+        <!-- الجانب الأيسر (الرسوم) -->
+        <div class="auth-hero">
+            <div class="auth-hero-content">
+                <h1>انضم إلى مجتمع WithYou</h1>
+                <p>منصة الرعاية النفسية الأولى التي تجمع بين المرضى وأفضل الأطباء المتخصصين</p>
+
+                <ul class="features-list">
+                    <li>جلسات علاجية مع أفضل الأخصائيين</li>
+                    <li>خصوصية وأمان تام لبياناتك</li>
+                    <li>إمكانية الحصول على استشارات فورية</li>
+                    <li>متابعة مستمرة لتطور حالتك</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- الجانب الأيمن (النماذج) -->
+        <div class="auth-forms">
+            <!-- علامات التبويب -->
+            <div class="auth-tabs">
+                <div class="auth-tab active" data-tab="login">تسجيل الدخول</div>
+                <div class="auth-tab" data-tab="register">إنشاء حساب</div>
+            </div>
+
+            <!-- نموذج تسجيل الدخول -->
+            <div class="auth-form active" id="login-form">
+                <h2 class="form-title">مرحبًا بعودتك!</h2>
+                <p class="form-subtitle">سجل دخولك للوصول إلى حسابك الشخصي</p>
+
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="email" id="login-email" class="form-control" placeholder=" " required>
+                        <label for="login-email" class="floating-label">البريد الإلكتروني</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" id="login-password" class="form-control" placeholder=" " required>
+                        <label for="login-password" class="floating-label">كلمة المرور</label>
+                    </div>
+
+                    <div class="form-group" style="text-align: left;">
+                        <a href="resetEmail.html" style="color: var(--primary); font-size: 0.9rem;">نسيت كلمة المرور؟</a>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
+                </form>
+            </div>
+
+            <!-- نموذج إنشاء حساب -->
+            <div class="auth-form" id="register-form">
+                <h2 class="form-title">أنشئ حسابك الآن</h2>
+                <p class="form-subtitle">اختر نوع الحساب المناسب لك</p>
+
+                <!-- مبدل نوع الحساب -->
+                <div class="account-type-switch">
+                    <div class="account-type active" data-type="patient">مستخدم</div>
+                    <div class="account-type" data-type="doctor">أخصائي</div>
+                    <div class="account-type-slider"></div>
+                </div>
+
+                <!-- تنبيهات حسب نوع الحساب -->
+                <div class="form-alert alert-info" id="patient-alert">
+                    <i class="fas fa-info-circle"></i>
+                    كـ مستخدم يمكنك حجز الجلسات ومتابعة حالتك مع أفضل الأخصائيين
+                </div>
+
+                <div class="form-alert alert-warning" id="doctor-alert" style="display: none;">
+                    <i class="fas fa-exclamation-circle"></i>
+                    كـ أخصائي سيتم التحقق من بياناتك قبل تفعيل الحساب (24-48 ساعة)
+                </div>
+                <form id="registerForm">
+                    <!-- الحقول المشتركة -->
+                    <div class="form-group">
+                        <input type="text" id="register-name" class="form-control" placeholder=" " required>
+                        <label for="register-name" class="floating-label">الاسم الكامل</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="register-email" class="form-control" placeholder=" " required>
+                        <label for="register-email" class="floating-label">البريد الإلكتروني</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" id="register-password" class="form-control" placeholder=" " required>
+                        <label for="register-password" class="floating-label">كلمة المرور</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="register-phone" class="form-control" placeholder=" " required>
+                        <label for="register-phone" class="floating-label">رقم الجوال</label>
+                    </div>
+
+                    <!-- حقول خاصة بالطبيب (تظهر عند الاختيار) -->
+                    <div id="doctor-fields" style="display: none;">
+                        <div class="form-group">
+                            <input type="text" id="register-specialty" class="form-control" placeholder=" ">
+                            <label for="register-specialty" class="floating-label">التخصص الدقيق</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="register-license" class="form-control" placeholder=" ">
+                            <label for="register-license" class="floating-label">رقم الرخصة الطبية</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="register-experience" class="form-control" placeholder=" ">
+                            <label for="register-experience" class="floating-label">سنوات الخبرة</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">صورة شخصية احترافية</label>
+                            <div class="file-upload">
+                                <input type="file" id="register-photo" accept="image/*">
+                                <div class="file-upload-icon">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </div>
+                                <div class="file-upload-text">
+                                    اسحب وأفلت الصورة هنا أو <strong>انقر للاختيار</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">مرفقات الشهادات (PDF)</label>
+                            <div class="file-upload">
+                                <input type="file" id="register-certificates" accept=".pdf,.doc,.docx">
+                                <div class="file-upload-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="file-upload-text">
+                                    اسحب وأفلت الملفات هنا أو <strong>انقر للاختيار</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" id="register-terms" required>
+                        <label for="register-terms">أوافق على <a href="#">الشروط والأحكام</a> و<a href="#">سياسة
+                                الخصوصية</a></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">إنشاء حساب</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="Js/Login.js"></script>
+
+
+</body>
+
+</html>

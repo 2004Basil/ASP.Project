@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - إنشاء كلمة مرور جديدة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/ResetPageCss.css">
+
+</head>
+
+<body>
+    <div class="new-password-container">
+        <!-- الجانب الأيسر (الرسوم) -->
+        <div class="new-password-hero">
+            <div class="new-password-hero-content">
+                <h1>إنشاء كلمة مرور جديدة</h1>
+                <p>اختر كلمة مرور قوية وآمنة لحسابك في منصة WithYou للرعاية النفسية</p>
+            </div>
+        </div>
+
+        <!-- الجانب الأيمن (النموذج) -->
+        <div class="new-password-form-container">
+            <h2 class="form-title">تعيين كلمة مرور جديدة</h2>
+            <p class="form-subtitle">أدخل كلمة المرور الجديدة وتأكد من مطابقتها</p>
+
+            <div class="form-alert alert-info">
+                <i class="fas fa-info-circle"></i>
+                يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل وتشمل أرقامًا وحروفًا
+            </div>
+
+            <form id="newPasswordForm">
+                <input type="hidden" id="reset-token" value="">
+
+                <div class="form-group">
+                    <input type="password" id="new-password" class="form-control" placeholder=" " required
+                        minlength="8">
+                    <label for="new-password" class="floating-label">كلمة المرور الجديدة</label>
+                    <div class="password-strength">
+                        <div class="password-strength-bar" id="password-strength-bar"></div>
+                    </div>
+                    <div class="password-strength-text" id="password-strength-text">قوة كلمة المرور</div>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="confirm-password" class="form-control" placeholder=" " required
+                        minlength="8">
+                    <label for="confirm-password" class="floating-label">تأكيد كلمة المرور الجديدة</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">تعيين كلمة المرور</button>
+            </form>
+
+            <div class="back-to-login">
+                <a href="login.html">العودة لتسجيل الدخول</a>
+            </div>
+        </div>
+    </div>
+<script src="Js/ResetPage.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - الأخصائيون</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/SpecialestsCss.css">
+
+</head>
+
+<body>
+    <!-- الهيدر -->
+    <header class="main-header" id="header">
+        <div class="container-header">
+            <a href="Home.html" class="logo">
+                <img src="https://via.placeholder.com/42" alt="شعار WithYou">
+                <span>WithYou</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="Home.html">الرئيسية</a>
+                <a href="Specialest.html">الأخصائيين</a>
+                <a href="userdashboard.html">لوحة التحكم</a>
+                <!-- <a href="#booking">الحجز</a> -->
+                <a href="Articels.html">المقالات</a>
+            </div>
+
+            <div class="icons-header">
+                <i class="fas fa-search" id="search-icon"></i>
+                <i class="fas fa-globe" id="language-icon"></i>
+
+                <!-- Search Box -->
+                <div class="search-box" id="search-box">
+                    <input type="text" placeholder="ابحث هنا...">
+                </div>
+
+                <!-- Language Menu -->
+                <div class="language-menu" id="language-menu">
+                    <ul>
+                        <li>
+                            <a href="#" data-lang="ar">
+                                <i class="fas fa-language"></i>
+                                العربية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="en">
+                                <i class="fas fa-language"></i>
+                                English
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <div class="auth-buttons">
+                        <a href="login.html" class="login">تسجيل الدخول</a>
+                        <a href="register.html" class="register">إنشاء حساب</a>
+                    </div> -->
+            </div>
+        </div>
+    </header>
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <div class="specialists-container">
+            <div class="page-header">
+                <h1 class="page-title"><i class="fas fa-user-md"></i> الأخصائيون المعتمدون</h1>
+                <div class="search-filter">
+                    <div class="search-box">
+                        <input type="text" placeholder="ابحث عن أخصائي...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <select class="filter-select">
+                        <option>جميع التخصصات</option>
+                        <option>الاكتئاب</option>
+                        <option>القلق</option>
+                        <option>اضطرابات النوم</option>
+                        <option>العلاج الأسري</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="specialists-grid">
+                <!-- أخصائي 1 -->
+                <div class="specialist-card">
+                    <span class="specialist-badge">متاح الآن</span>
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"
+                            alt="د. سارة عبدالله">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. سارة عبدالله</h3>
+                        <span class="specialist-specialty">أخصائية نفسية</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(47 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>دكتوراه</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>12 سنة خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-globe"></i>
+                                <span>أونلاين</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">350 ر.س/الجلسة</div>
+
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أخصائي 2 -->
+                <div class="specialist-card">
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1964&auto=format&fit=crop"
+                            alt="د. خالد سليمان">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. خالد سليمان</h3>
+                        <span class="specialist-specialty">استشاري نفسي</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(32 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>استشاري</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>15 سنة خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-clinic-medical"></i>
+                                <span>عيادة</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">500 ر.س/الجلسة</div>
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أخصائي 3 -->
+                <div class="specialist-card">
+                    <span class="specialist-badge">جديد</span>
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=1974&auto=format&fit=crop"
+                            alt="د. مريم أحمد">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. مريم أحمد</h3>
+                        <span class="specialist-specialty">أخصائية علاج أسري</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(28 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>ماجستير</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>8 سنوات خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-globe"></i>
+                                <span>أونلاين</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">300 ر.س/الجلسة</div>
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أخصائي 4 -->
+                <div class="specialist-card">
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1974&auto=format&fit=crop"
+                            alt="د. أحمد محمد">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. أحمد محمد</h3>
+                        <span class="specialist-specialty">أخصائي اضطرابات النوم</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(19 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>دكتوراه</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>10 سنوات خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-clinic-medical"></i>
+                                <span>عيادة</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">400 ر.س/الجلسة</div>
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أخصائي 5 -->
+                <div class="specialist-card">
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=1974&auto=format&fit=crop"
+                            alt="د. نورة عبدالعزيز">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. نورة عبدالعزيز</h3>
+                        <span class="specialist-specialty">أخصائية طفل</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(41 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>ماجستير</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>7 سنوات خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-globe"></i>
+                                <span>أونلاين</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">450 ر.س/الجلسة</div>
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أخصائي 6 -->
+                <div class="specialist-card">
+                    <span class="specialist-badge">الأعلى تقييماً</span>
+                    <div class="specialist-image">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1964&auto=format&fit=crop"
+                            alt="د. يوسف خالد">
+                    </div>
+                    <div class="specialist-content">
+                        <h3 class="specialist-name">د. يوسف خالد</h3>
+                        <span class="specialist-specialty">استشاري اضطرابات القلق</span>
+                        <div class="specialist-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(63 تقييم)</span>
+                        </div>
+                        <div class="specialist-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>استشاري</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>18 سنة خبرة</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-clinic-medical"></i>
+                                <span>عيادة</span>
+                            </div>
+                        </div>
+                        <div class="specialist-footer">
+                            <div class="specialist-price">600 ر.س/الجلسة</div>
+                            <button class="book-btn" onclick="window.location.href='Booking.html'">
+                                <i class="fas fa-calendar-check"></i>
+
+                                احجز الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <div class="page-item"><i class="fas fa-chevron-right"></i></div>
+                <div class="page-item">1</div>
+                <div class="page-item active">2</div>
+                <div class="page-item">3</div>
+                <div class="page-item"><i class="fas fa-chevron-left"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- التذييل -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">من نحن</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#doctors">الأخصائيين</a>
+                <!-- <a href="#booking">الحجز</a> -->
+                <a href="privacy.html">سياسة الخصوصية</a>
+                <a href="terms.html">الشروط والأحكام</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <p class="copyright">© 2025 WithYou. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+<script src="Js/Specialests.js"></script>
+
+</body>
+
+</html>

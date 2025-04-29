@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - المراجعات والشكاوى</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/ReviewsandproblemCss.css">
+
+</head>
+<body>
+    <!-- الهيدر -->
+    <header class="reviews-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="Home.html" class="logo">
+                    <img src="https://via.placeholder.com/40" alt="WithYou Logo">
+                    <span>WithYou</span>
+                </a>
+                <div>
+                    <a href="Home.html" style="color: var(--primary-color); font-weight: 600;">
+                        <i class="fas fa-arrow-left"></i> العودة
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <div class="page-header">
+            <h1 class="page-title"><i class="fas fa-comment-alt"></i> المراجعات والشكاوى</h1>
+            <button class="btn btn-primary">
+                <i class="fas fa-plus"></i> تقديم شكوى جديدة
+            </button>
+        </div>
+
+        <!-- نظام التبويب -->
+        <div class="tabs">
+            <div class="tab active" data-tab="reviews">المراجعات والتقييمات</div>
+            <div class="tab" data-tab="complaints">الشكاوى والبلاغات</div>
+            <div class="tab" data-tab="my-reviews">مراجعاتي</div>
+        </div>
+
+        <!-- محتوى تبويب المراجعات -->
+        <div class="tab-content active" id="reviews">
+            <!-- نموذج إضافة مراجعة -->
+            <div class="add-review-card">
+                <h3 class="form-title"><i class="fas fa-edit"></i> أضف مراجعتك</h3>
+                <form id="review-form">
+                    <div class="rating-input">
+                        <label>التقييم</label>
+                        <div class="stars-container">
+                            <i class="fas fa-star star" data-rating="1"></i>
+                            <i class="fas fa-star star" data-rating="2"></i>
+                            <i class="fas fa-star star" data-rating="3"></i>
+                            <i class="fas fa-star star" data-rating="4"></i>
+                            <i class="fas fa-star star" data-rating="5"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="review-title">عنوان المراجعة</label>
+                        <input type="text" id="review-title" placeholder="اكتب عنواناً لمراجعتك">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="review-content">تفاصيل المراجعة</label>
+                        <textarea id="review-content" placeholder="شاركنا بتجربتك مع الأخصائي"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="review-specialist">الأخصائي</label>
+                        <select id="review-specialist">
+                            <option value="">اختر الأخصائي</option>
+                            <option value="1">د. سارة عبدالله</option>
+                            <option value="2">د. خالد سليمان</option>
+                            <option value="3">د. مريم أحمد</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline">إلغاء</button>
+                        <button type="submit" class="btn btn-primary">نشر المراجعة</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- قائمة المراجعات -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" class="reviewer-avatar">
+                        <div>
+                            <div class="reviewer-name">أحمد محمد</div>
+                            <div class="review-date">15 أبريل 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-value">4.5</span>
+                    </div>
+                </div>
+                
+                <h4>تجربة رائعة مع الدكتورة سارة</h4>
+                
+                <div class="review-content">
+                    كانت الجلسة مع الدكتورة سارة مفيدة جداً. استطاعت فهم مشكلتي بسرعة وقدمت لي نصائح عملية ساعدتني في التغلب على قلقي. أنصح الجميع بالتجربة معها.
+                </div>
+                
+                <div class="review-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>مفيد (24)</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-comment"></i>
+                        <span>تعليق</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-flag"></i>
+                        <span>تبليغ</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop" class="reviewer-avatar">
+                        <div>
+                            <div class="reviewer-name">نورة عبدالعزيز</div>
+                            <div class="review-date">10 أبريل 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="rating-value">4.0</span>
+                    </div>
+                </div>
+                
+                <h4>جلسة جيدة ولكن...</h4>
+                
+                <div class="review-content">
+                    الجلسة كانت جيدة بشكل عام ولكن كان هناك بعض التأخير في بدايتها. الأخصائي كان محترفاً ولكن كنت أتمنى مزيداً من الوقت لمناقشة بعض النقاط المهمة.
+                </div>
+                
+                <div class="review-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>مفيد (12)</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-comment"></i>
+                        <span>تعليق</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-flag"></i>
+                        <span>تبليغ</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- محتوى تبويب الشكاوى -->
+        <div class="tab-content" id="complaints">
+            <div class="complaint-card urgent">
+                <div class="complaint-header">
+                    <h3 class="complaint-title">مشكلة في الدفع</h3>
+                    <span class="complaint-status status-urgent">عاجل</span>
+                </div>
+                
+                <div class="complaint-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>أحمد محمد</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>18 أبريل 2025</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-tag"></i>
+                        <span>مشاكل تقنية</span>
+                    </div>
+                </div>
+                
+                <div class="complaint-content">
+                    قمت بعملية دفع لقاء جلسة مع الأخصائي ولكن النظام لم يعترف بالدفع. تم خصم المبلغ من حسابي ولكن الجلسة غير مسجلة في قائمة مواعيدي. الرجاء المساعدة في حل هذه المشكلة في أسرع وقت.
+                </div>
+                
+                <div class="complaint-actions">
+                    <button class="btn btn-primary btn-sm">
+                        <i class="fas fa-reply"></i> رد
+                    </button>
+                    <button class="btn btn-outline btn-sm">
+                        <i class="fas fa-check"></i> تم الحل
+                    </button>
+                    <button class="btn btn-outline btn-sm">
+                        <i class="fas fa-archive"></i> أرشيف
+                    </button>
+                </div>
+            </div>
+            
+            <div class="complaint-card resolved">
+                <div class="complaint-header">
+                    <h3 class="complaint-title">تأخير الأخصائي</h3>
+                    <span class="complaint-status status-resolved">تم الحل</span>
+                </div>
+                
+                <div class="complaint-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>ليلى أحمد</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>5 أبريل 2025</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-tag"></i>
+                        <span>مواعيد</span>
+                    </div>
+                </div>
+                
+                <div class="complaint-content">
+                    كان هناك تأخير من الأخصائي لمدة 20 دقيقة عن موعد الجلسة المحدد دون إشعار مسبق. هذا التأخير سبب لي إزعاجاً كبيراً حيث كان لدي التزامات أخرى بعد الجلسة.
+                </div>
+                
+                <div class="complaint-actions">
+                    <button class="btn btn-outline btn-sm">
+                        <i class="fas fa-eye"></i> عرض التفاصيل
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- محتوى تبويب مراجعاتي -->
+        <div class="tab-content" id="my-reviews">
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" class="reviewer-avatar">
+                        <div>
+                            <div class="reviewer-name">أنت</div>
+                            <div class="review-date">3 أبريل 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-value">5.0</span>
+                    </div>
+                </div>
+                
+                <h4>تجربة ممتازة مع د. خالد</h4>
+                
+                <div class="review-content">
+                    الدكتور خالد كان محترفاً جداً واستطاع مساعدتي في فهم مشكلتي وتقديم الحلول المناسبة. الجلسة كانت في الوقت المحدد ومنظمة بشكل جيد. أنصح الجميع به.
+                </div>
+                
+                <div class="review-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-edit"></i>
+                        <span>تعديل</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-trash-alt"></i>
+                        <span>حذف</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- التذييل -->
+    <footer class="reviews-footer">
+        <div class="container">
+            <p>WithYou &copy; 2025 - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="Js/Reviewsandproblem.js"></script>
+
+</body>
+</html>

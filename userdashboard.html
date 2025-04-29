@@ -1,0 +1,361 @@
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithYou - لوحة التحكم</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/userdashboardCss.css">
+
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <!-- الشريط الجانبي -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="صورة المستخدم" class="user-avatar">
+                <h2>سارة أحمد</h2>
+                <p>مستخدم</p>
+            </div>
+
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="dashboard.html" class="active">
+                        <i class="fas fa-home"></i>
+                        لوحة التحكم
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="profile.html">
+                        <i class="fas fa-user"></i>
+                        الملف الشخصي
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="sessions.html">
+                        <i class="fas fa-calendar-alt"></i>
+                        الجلسات
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="messages.html">
+                        <i class="fas fa-envelope"></i>
+                        الرسائل
+                        <span class="notification-badge">3</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="Specialest.html">
+                        <i class="fas fa-user-md"></i>
+                        الأخصائيين
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="reports.html">
+                        <i class="fas fa-chart-line"></i>
+                        التقارير
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="logout.html">
+                        <i class="fas fa-sign-out-alt"></i>
+                        تسجيل الخروج
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- المحتوى الرئيسي -->
+        <main class="main-content">
+            <div class="top-nav">
+                <div class="page-title">
+                    <h1>لوحة التحكم</h1>
+                </div>
+
+                <div class="user-actions">
+                    <button class="notification-btn">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">5</span>
+                    </button>
+
+                    <button class="user-profile-btn">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="صورة المستخدم">
+                        <span>سارة أحمد</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- بطاقات الإحصائيات -->
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-card-content">
+                        <h3>الجلسات القادمة</h3>
+                        <div class="value">3</div>
+                        <div class="change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            جلسة جديدة هذا الأسبوع
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-card-content">
+                        <h3>الجلسات المكتملة</h3>
+                        <div class="value">12</div>
+                        <div class="change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            20% زيادة عن الشهر الماضي
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-card-content">
+                        <h3>ساعات العلاج</h3>
+                        <div class="value">24</div>
+                        <div class="change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            5 ساعات زيادة
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-card-content">
+                        <h3>التقدم العلاجي</h3>
+                        <div class="value">75%</div>
+                        <div class="change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            15% زيادة عن الأسبوع الماضي
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الجلسات القادمة -->
+            <div class="upcoming-sessions">
+                <div class="section-header">
+                    <h2>الجلسات القادمة</h2>
+                    <a href="sessions.html" class="view-all">
+                        عرض الكل
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                </div>
+
+                <div class="sessions-list">
+                    <div class="session-card">
+                        <div class="session-header">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="صورة الطبيب">
+                            <div class="session-info">
+                                <h4>د. أحمد محمد</h4>
+                                <p>أخصائي نفسي</p>
+                            </div>
+                        </div>
+
+                        <div class="session-details">
+                            <div class="detail-item">
+                                <i class="far fa-calendar-alt"></i>
+                                <span>الأحد، 15 مايو 2023</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="far fa-clock"></i>
+                                <span>10:00 ص - 11:00 ص</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-video"></i>
+                                <span>جلسة أونلاين</span>
+                            </div>
+                        </div>
+
+                        <div class="session-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-video"></i>
+                                انضم الآن
+                            </button>
+                            <button class="btn btn-outline">
+                                <i class="fas fa-calendar-alt"></i>
+                                تأجيل
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="session-card">
+                        <div class="session-header">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="صورة الطبيب">
+                            <div class="session-info">
+                                <h4>د. منى علي</h4>
+                                <p>طبيبة نفسية</p>
+                            </div>
+                        </div>
+
+                        <div class="session-details">
+                            <div class="detail-item">
+                                <i class="far fa-calendar-alt"></i>
+                                <span>الثلاثاء، 17 مايو 2023</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="far fa-clock"></i>
+                                <span>02:00 م - 03:00 م</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clinic-medical"></i>
+                                <span>العيادة - الرياض</span>
+                            </div>
+                        </div>
+
+                        <div class="session-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-directions"></i>
+                                احصل على الاتجاهات
+                            </button>
+                            <button class="btn btn-outline">
+                                <i class="fas fa-calendar-alt"></i>
+                                تأجيل
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- تقويم الجلسات -->
+            <div class="calendar-section">
+                <div class="section-header">
+                    <h2>تقويم الجلسات</h2>
+                </div>
+
+                <div class="calendar-header">
+                    <div class="calendar-nav">
+                        <button>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <span class="calendar-title">مايو 2023</span>
+                        <button>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                    </div>
+
+                    <button class="btn btn-primary">
+                        <i class="fas fa-plus"></i>
+                        حجز جلسة جديدة
+                    </button>
+                </div>
+
+                <div class="calendar-grid">
+                    <div class="calendar-day-header">الأحد</div>
+                    <div class="calendar-day-header">الاثنين</div>
+                    <div class="calendar-day-header">الثلاثاء</div>
+                    <div class="calendar-day-header">الأربعاء</div>
+                    <div class="calendar-day-header">الخميس</div>
+                    <div class="calendar-day-header">الجمعة</div>
+                    <div class="calendar-day-header">السبت</div>
+
+                    <!-- أيام الشهر -->
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day">
+                        <div class="day-number">1</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">2</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">3</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">4</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">5</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">6</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">7</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">8</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">9</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">10</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">11</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">12</div>
+                    </div>
+                    <div class="calendar-day has-session today">
+                        <div class="day-number">13</div>
+                    </div>
+                    <div class="calendar-day has-session">
+                        <div class="day-number">14</div>
+                    </div>
+                    <div class="calendar-day has-session">
+                        <div class="day-number">15</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">16</div>
+                    </div>
+                    <div class="calendar-day has-session">
+                        <div class="day-number">17</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">18</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">19</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">20</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">21</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">22</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">23</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">24</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">25</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">26</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">27</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">28</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">29</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">30</div>
+                    </div>
+                    <div class="calendar-day">
+                        <div class="day-number">31</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="Js/userdashboard.js"></script>
+
+</body>
+
+</html>
