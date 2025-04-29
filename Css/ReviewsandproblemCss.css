@@ -1,0 +1,431 @@
+
+        :root {
+            --primary-color: #0077b6;
+            --primary-dark: #023e8a;
+            --primary-light: #00b4d8;
+            --accent-color: #ff9e00;
+            --text-dark: #222;
+            --text-medium: #444;
+            --text-light: #666;
+            --bg-light: #f8fafc;
+            --bg-white: #ffffff;
+            --border-color: #e0e0e0;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* الهيدر */
+        .reviews-header {
+            background: var(--bg-white);
+            box-shadow: var(--shadow-sm);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* عنوان الصفحة */
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .page-title {
+            font-size: 28px;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .page-title i {
+            color: var(--primary-color);
+        }
+
+        /* نظام التبويب */
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+
+        .tab {
+            padding: 12px 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab.active {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .tab:hover:not(.active) {
+            background-color: rgba(0, 180, 216, 0.1);
+        }
+
+        /* محتوى التبويب */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* بطاقات المراجعات */
+        .review-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .review-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .reviewer-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--primary-light);
+        }
+
+        .reviewer-name {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .review-date {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        .review-rating {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .rating-stars {
+            color: var(--accent-color);
+        }
+
+        .rating-value {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .review-content {
+            margin: 15px 0;
+            line-height: 1.7;
+        }
+
+        .review-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border-color);
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-medium);
+            transition: var(--transition);
+        }
+
+        .action-btn:hover {
+            color: var(--primary-color);
+        }
+
+        .action-btn i {
+            font-size: 14px;
+        }
+
+        /* نموذج إضافة مراجعة */
+        .add-review-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow-sm);
+            border: 2px dashed var(--primary-light);
+        }
+
+        .form-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-title i {
+            color: var(--primary-color);
+        }
+
+        .rating-input {
+            margin-bottom: 20px;
+        }
+
+        .stars-container {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .star {
+            font-size: 24px;
+            color: #ddd;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .star.active, .star:hover {
+            color: var(--accent-color);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-family: 'Cairo', sans-serif;
+            transition: var(--transition);
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--primary-light);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.2);
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            border: none;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 119, 182, 0.2);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline:hover {
+            background: rgba(0, 180, 216, 0.1);
+        }
+
+        /* بطاقات الشكاوى */
+        .complaint-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--primary-color);
+            transition: var(--transition);
+        }
+
+        .complaint-card.urgent {
+            border-left: 4px solid #f44336;
+        }
+
+        .complaint-card.resolved {
+            border-left: 4px solid #4caf50;
+        }
+
+        .complaint-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .complaint-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        .complaint-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .status-pending {
+            background-color: #fff3e0;
+            color: #ff8f00;
+        }
+
+        .status-resolved {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .status-urgent {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .complaint-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .meta-item i {
+            color: var(--primary-color);
+        }
+
+        .complaint-content {
+            margin: 15px 0;
+            line-height: 1.7;
+        }
+
+        .complaint-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        /* التذييل */
+        .reviews-footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            color: var(--text-medium);
+            border-top: 1px solid var(--border-color);
+        }
+    

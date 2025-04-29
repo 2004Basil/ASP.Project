@@ -1,0 +1,303 @@
+        :root {
+            --primary: #0077b6;
+            --primary-light: #00b4d8;
+            --secondary: #ff9e00;
+            --text: #2b2d42;
+            --light-bg: #f5f9fb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        .new-password-container {
+            display: flex;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .new-password-hero {
+            flex: 1;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 200px;
+            clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .new-password-hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: float 15s infinite linear;
+            z-index: 0;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+
+            50% {
+                transform: translate(-50px, 50px) rotate(180deg);
+            }
+
+            100% {
+                transform: translate(0, 0) rotate(360deg);
+            }
+        }
+
+        .new-password-hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+        }
+
+        .new-password-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .new-password-form-container {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px 40px;
+            background: white;
+            box-shadow: -5px 0 30px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+
+        .new-password-form-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 100%;
+            width: 30px;
+            height: 100%;
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.05), transparent);
+        }
+
+        .form-title {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+            background: linear-gradient(to left, var(--primary), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .form-subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #334155;
+            font-size: 0.95rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 14px 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s;
+            background-color: #f8fafc;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.1);
+            background-color: white;
+        }
+
+        .password-strength {
+            height: 4px;
+            background: #e2e8f0;
+            border-radius: 2px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .password-strength-bar {
+            height: 100%;
+            width: 0%;
+            background: #e53e3e;
+            transition: all 0.3s;
+        }
+
+        .password-strength-text {
+            font-size: 0.8rem;
+            color: #64748b;
+            margin-top: 4px;
+        }
+
+        .floating-label {
+            position: absolute;
+            top: 14px;
+            right: 15px;
+            color: #94a3b8;
+            transition: all 0.3s;
+            pointer-events: none;
+            background: white;
+            padding: 0 5px;
+            border-radius: 4px;
+        }
+
+        .form-control:focus+.floating-label,
+        .form-control:not(:placeholder-shown)+.floating-label {
+            top: -10px;
+            right: 10px;
+            font-size: 0.8rem;
+            color: var(--primary);
+            background: linear-gradient(to bottom, white 50%, var(--light-bg) 50%);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: linear-gradient(to left, var(--primary), var(--primary-light));
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 119, 182, 0.2);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 119, 182, 0.3);
+        }
+
+        .btn-primary::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transform: rotate(30deg);
+            transition: all 0.5s;
+        }
+
+        .btn-primary:hover::after {
+            right: 100%;
+        }
+
+        .back-to-login {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .back-to-login a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .form-alert {
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .alert-info {
+            background: rgba(0, 119, 182, 0.1);
+            color: var(--primary);
+            border-left: 3px solid var(--primary);
+        }
+
+        @media (max-width: 992px) {
+            .new-password-container {
+                flex-direction: column;
+            }
+
+            .new-password-hero {
+                clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+                padding: 60px 20px;
+                text-align: center;
+            }
+
+            .new-password-hero-content {
+                max-width: 100%;
+            }
+
+            .new-password-form-container {
+                width: 100%;
+                padding: 40px 20px;
+                border-radius: 30px 30px 0 0;
+                margin-top: -30px;
+                box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.05);
+            }
+
+            .new-password-form-container::before {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .form-title {
+                font-size: 1.5rem;
+            }
+        }
