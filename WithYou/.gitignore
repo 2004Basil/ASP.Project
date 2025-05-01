@@ -1,0 +1,111 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# Rider IDE files
+.idea/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+
+# Enable this if you use `packages` folder instead of PackageReference
+# !**/packages/build/
+# !**/packages/repositories.config
+
+# DotCover (JetBrains)
+*.dotCover
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotTrace
+*.dotTrace
+
+# DotMemory
+*.dotMemory
+
+# MSTest test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build directories from Azure DevOps or other CI/CD
+artifacts/
+
+# Web and UI files
+node_modules/
+bower_components/
+dist/
+build/
+
+# Publish folders
+publish/
+out/
+
+# Database files
+*.mdf
+*.ldf
+*.dbmdl
+
+# Entity Framework Migrations History
+Migrations/
+
+# Local settings
+appsettings.Development.json
+secrets.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Logs
+*.log
+
+# Compiled source #
+###################
+*.dll
+*.exe
+*.pdb
+*.cache
+*.obj
+*.pyc
+*.class
+
+# Others
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.orig
+
+# Rider and IntelliJ
+.idea/
+*.iml
