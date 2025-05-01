@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\modelview\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\modelview\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\articel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\articel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\psychologist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\psychologist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|c:\\users\\raed felfel\\todeletelater\\with-you\\withyou\\withyoudatabaseentity\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE8076F-BFE2-4CFF-9AB9-92AF0439BD30}|WithYouDataBaseEntity\\WithYouDataBaseEntity.csproj|solutionrelative:withyoudatabaseentity\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\ModelView\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\ModelView\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\ModelView\\DashboardViewModel.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\ModelView\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:31:30.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Views\\DashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Views\\DashBoard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Views\\DashBoard\\Index.cshtml",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Views\\DashBoard\\Index.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAADwv68AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T09:30:31.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:23:38.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:23:16.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Session.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Session.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Session.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Session.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:17:56.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Problem.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Problem.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Problem.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Problem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:17:36.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Message.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:17:20.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:17:18.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Articel.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Articel.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Articel.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Articel.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Articel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:13:30.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Payment.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Payment.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:16:11.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\User.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:15:42.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Review.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Review.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:15:18.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:15:12.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Admin.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Admin.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:15:04.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Psychologist.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Psychologist.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Models\\Psychologist.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Models\\Psychologist.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Models\\Psychologist.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:13:51.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Program.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Program.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Program.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:10:57.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WithYouDataBaseEntity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Raed Felfel\\ToDeleteLater\\With-you\\WithYou\\WithYouDataBaseEntity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WithYouDataBaseEntity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:10:12.51Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
